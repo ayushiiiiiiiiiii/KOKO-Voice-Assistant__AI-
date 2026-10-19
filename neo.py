@@ -53,17 +53,10 @@ except Exception:
 r = sr.Recognizer()
 
 
-gui_log_callback = None
-
 def bol(text):
     if not text:
         return
     clean = text.replace("*", "").replace("#", "").replace("_", "").strip()
-    if gui_log_callback is not None:
-        try:
-            gui_log_callback(clean)
-        except Exception:
-            pass
     if speaker is not None:
         try:
             speaker.Speak(clean)
