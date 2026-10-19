@@ -128,7 +128,6 @@ python neo.py
 |---|---|
 | **"Koko"** | Wakes up and greets you |
 | **"Play Drop Dead"** | Finds the video and plays it directly on YouTube |
-| **"Play Kesariya"** | Plays Kesariya on YouTube |
 | **"Open YouTube"** | Opens YouTube in your browser |
 | **"Open Notepad"** | Launches Notepad app |
 | **"Open Calculator"** | Launches Calculator app |
