@@ -1,7 +1,6 @@
 import speech_recognition as sr
 import webbrowser
 import pyttsx3
-import musiclibrary
 import requests
 import time
 import datetime
@@ -220,12 +219,6 @@ def RPS():
     bol("\nTHanks For PLaying")
     
 def play_song(song_name):
-    song_clean = song_name.lower().strip()
-    if song_clean in musiclibrary.music:
-        bol(f"Playing {song_name}")
-        webbrowser.open(musiclibrary.music[song_clean])
-        return
-
     bol(f"Playing {song_name}")
     try:
         query = urllib.parse.quote(song_name)

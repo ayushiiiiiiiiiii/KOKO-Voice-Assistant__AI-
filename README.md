@@ -146,7 +146,6 @@ python neo.py
 ```
 📦 koko-voice-assistant
 ├── 🐍 neo.py              → Main assistant engine (voice input, logic & speech)
-├── 🎵 musiclibrary.py     → Shortcut music link mapping
 ├── 🔒 .env.example        → Template for required API keys
 ├── 🔒 .env                → Your private API keys (kept secret, ignored by git)
 ├── 📄 requirements.txt    → List of Python packages needed
