@@ -95,9 +95,11 @@ git clone https://github.com/your-username/KOKO-Voice-Assistant__AI.git
 cd KOKO-Voice-Assistant__AI
 ```
 
-### 2️⃣ Install the required packages
+### 2️⃣ Install the required packages in virtual environment
 ```powershell
-pip install SpeechRecognition pyaudio pyttsx3 requests pyjokes python-dotenv pywin32
+py -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
 ### 3️⃣ Add your API keys
